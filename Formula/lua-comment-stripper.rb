@@ -1,21 +1,21 @@
 class LuaCommentStripper < Formula
   desc "A tool for stripping comments but preserving line numbers of lua script files"
   homepage "https://github.com/FreeMasen/lua-comment-stripper"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/FreeMasen/lua-comment-stripper/releases/download/v0.1.2/lua-comment-stripper-aarch64-apple-darwin.tar.xz"
-      sha256 "3a229ad2f3c73ef9cfda58c15c616ce15a6c5fecc7e3da6e908c5095728b8350"
+      url "https://github.com/FreeMasen/lua-comment-stripper/releases/download/v0.1.3/lua-comment-stripper-aarch64-apple-darwin.tar.xz"
+      sha256 "3b24cff2e72272fb262575b9a7c0c35379ea278a4bc5b93658d7d29ee27c3cc7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FreeMasen/lua-comment-stripper/releases/download/v0.1.2/lua-comment-stripper-x86_64-apple-darwin.tar.xz"
-      sha256 "6b4d134adb316a4270274b76231529741c2c63e684200f679a0395d53202c5ad"
+      url "https://github.com/FreeMasen/lua-comment-stripper/releases/download/v0.1.3/lua-comment-stripper-x86_64-apple-darwin.tar.xz"
+      sha256 "f7b63b72034150e88e57edc470ca80b81a509ca1eb2c429da0979fc99147dee8"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/FreeMasen/lua-comment-stripper/releases/download/v0.1.2/lua-comment-stripper-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3e9d1abad73a49021d43f494b0c6f6deea867aec987bbb8f39849bb260e46c78"
+      url "https://github.com/FreeMasen/lua-comment-stripper/releases/download/v0.1.3/lua-comment-stripper-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "19e2d39a0a790237a3f80a47ca9319dcb9bdddbdee9a0d77200632669b8b3ea3"
     end
   end
 
