@@ -1,25 +1,25 @@
 class Serve < Formula
   desc "serve a directory"
   homepage "https://gh.freemasen.com/serve"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/FreeMasen/serve/releases/download/v0.1.2/serve-aarch64-apple-darwin.tar.xz"
-      sha256 "6603b892289823bd23421b9798bfe73272b8ac952f2bf2338272b8df75a3d13c"
+      url "https://github.com/FreeMasen/serve/releases/download/v0.1.3/serve-aarch64-apple-darwin.tar.xz"
+      sha256 "093a3b1167a33a98d8676a63bf05e187df1867cf6b6c33bfb4af4432b4d72aaf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FreeMasen/serve/releases/download/v0.1.2/serve-x86_64-apple-darwin.tar.xz"
-      sha256 "bf484b93e6cca97982fb9f508f91df120163db380c43444ea2dc20eb7f046a33"
+      url "https://github.com/FreeMasen/serve/releases/download/v0.1.3/serve-x86_64-apple-darwin.tar.xz"
+      sha256 "a861186ca87a288cf48a2cdf152f66d444340aa809d77ad2b1dd6a7a16caa42d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/FreeMasen/serve/releases/download/v0.1.2/serve-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "33365f4e4741d94397e67f35ea95ba118f72926431adc8cba935f55bf24c26c0"
+      url "https://github.com/FreeMasen/serve/releases/download/v0.1.3/serve-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a9cf4a723d02614b5ccec35c0b4395fc9749f95abb28a3e89b10b69d76e14acb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FreeMasen/serve/releases/download/v0.1.2/serve-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bbe82feaa2a9f712eb190a70160673ed256b43c7444b9209019df093651f7860"
+      url "https://github.com/FreeMasen/serve/releases/download/v0.1.3/serve-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8e379f70a8c7f3196b1bf51b6a72e9b24c0df90e9371d6c59cc3e16cbabb635a"
     end
   end
 
